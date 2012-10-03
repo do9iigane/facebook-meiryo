@@ -1,9 +1,8 @@
 {
-  "name": "facebookをメイリオで",
+  "name": "facebookをMSゴシックで",
   "version": "0.1",
   "permissions": ["geolocation"],
   "manifest_version": 2,
-  
   "content_scripts": [
     {
       "matches": [
@@ -15,6 +14,11 @@
         "font-change.js"
 	]
     }
-  ]
+  ],
+  "page_action": {
+    "default_icon": "facebook-devicon.png",
+    "default_title": "Do action"
+  },
+  "manifest_version": 2
 
 }
